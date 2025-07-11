@@ -4,7 +4,7 @@ if (isNaN(size)) {
   console.log('Missing size')
 
 } else if (size >= 0) {
-  const row = 'x'.repeat(size);
+  const row = 'X'.repeat(size);
   for (let i = 0; i < size; i++) {
     console.log(row)
   }
